@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0%;
+  border: 0;
+  background-color: rgb(230, 230, 230);
+}
+
+footer {
+  padding-top: 20px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 3.5rem;
+  align-items: center;
+  text-align: center;
+
+  background: rgb(255, 255, 255);
+  color: rgb(34, 34, 34);
+}
+
+.logo {
+  max-width: 230px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+}
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons-navbar {
+  padding-right: 1rem;
+}
+
+.social-icons {
+  color: black;
+}
+
+#nav-icons {
+  color: black;
+  padding-left: 1rem;
+}
+
+#showroom {
+  margin: 0;
+  padding: 0;
+}
+/* ----------Imagem e Nome do Produto*/
+#showroom .image img.product-image{
+  float: left;
+  width: 50%;
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-bottom: 4%;
+}
+
+#showroom .product {
+    padding-left: 61%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    padding-top: 2%;
+    text-align: left;
+}
+
+/* ----------Preço do Produto*/
+#showroom #price{
+  display: inline;
+  float: left;
+  padding-left: 1%;
+  text-align: left;
+}
+
+#showroom #price .full-price{
+  display: inline-block;
+  font-weight: bold;
+  font-size: large;
+}
+
+#showroom #price .payment-price{
+  display: inline-block;
+  color: rgb(148, 143, 143);
+  font-weight: bold;
+  font-size: small;
+}
+/* ----------  Escolher Tamanho*/
+#showroom #select {
+  display: block;
+  padding: 1rem;
+  margin-left: 10%;
+}
+
+#showroom #select .size{
+  display: block;
+  color: rgb(148, 143, 143);
+  font-size: small;
+  padding-left: 10%;
+  margin-left: 47%;
+  margin-bottom: 0.3%;
+}
+
+#showroom #select .size-choice{
+  padding-left: 57%;
+}
+
+#showroom #select .size-choice input.size {
+  padding:0.4%;
+  font-weight: bold;
+  font-size: small;
+  display: inline-block;
+  color: black;
+  margin-left: 0.3%;
+}
+
+#showroom #select .size-choice input.size:hover {
+  background-color: black;
+  color: white;
+}
+/* ----------Adicionar a Sacola*/
+#showroom #select .bag{
+  margin: 1%;
+  display: inline-flex;
+}
+
+#showroom #select .bags input.bag {
+  margin-left: 1.2%;
+}
+
+#showroom #select .bags input.bag:hover {
+  background-color: black;
+  color: white;
+}
+
+
+/* ----------Continuar Escolhendo*/
+#showroom #decision {
+  display: inline-block;
+}
+
+#showroom #decision .back{
+  width: 100%;
+  margin-left: -25%;
+}
+
+
+#showroom #decision .back input.back {
+  width: 100%;
+  margin-top: 1rem;
+  margin-left: 4rem;
+  height: 80%;
+  display: flexbox;
+  text-align: center;
+}
+
+#showroom #decision .back input.back:hover {
+  background-color: black;
+  color: white;
+}
+
+/* ----------Finalizar Compra*/
+#showroom #decision .purchase {
+
+}
+
+#showroom #decision .purchase input.purchase {
+  width: 100%;
+  height: 80%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  text-align: center;
+}
+
+
+#showroom #decision .purchase input.purchase:hover {
+  background-color: black;
+  color: white;
+}
